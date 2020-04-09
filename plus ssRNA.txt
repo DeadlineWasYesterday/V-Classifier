@@ -1,0 +1,1429 @@
+ViRAD (+)
+Virus (re-)annotation database
+Note: The alignment 'depth' is encoded in the link: (M) - Genome map only (no alignment produced). (?.?) - Synonymous site conservation and coding potential plots produced; the number '?.?' gives an indication of the alignment 'depth' and therefore statistical power (essentially it is the mean z-score that would be obtained for 25-codon window with 100% suppression of synonymous substitutions, prior to correction for multiple testing). Alignments with scores < 3 are virtually useless for the synplot2 analysis but some of these may still provide useful MLOGD results.
+
+
+Alphatetraviridae - Betatetravirus
+
+Nudaurelia capensis beta virus - (M)
+
+Alphatetraviridae - Omegatetravirus
+
+Dendrolimus punctatus tetravirus - RNA1 (M), RNA2 (4.4)
+Helicoverpa armigera stunt virus - RNA1 (M), RNA2 (M)
+
+Alvernaviridae - Dinornavirus
+
+Heterocapsa circularisquama RNA virus - (1.0)
+
+Astroviridae -
+
+Astrovirus MLB1 HK05 - (5.8)
+Astrovirus MLB1 - (5.8)
+Astrovirus MLB2 - (5.8)
+Astrovirus MLB3 - (5.8)
+Astrovirus VA1 - (4.6)
+Astrovirus VA2 - (4.7)
+Astrovirus VA3 - (4.6)
+Astrovirus VA4 - (4.7)
+Mouse astrovirus M-52-USA-2008 - (M)
+Murine astrovirus - (1.9)
+Porcine astrovirus 5 - (1.5)
+
+Astroviridae - Avastrovirus
+
+Chicken astrovirus - (3.8)
+Duck astrovirus C-NGB - (3.0)
+Turkey astrovirus 2 - (4.8)
+Turkey astrovirus - (M)
+
+Astroviridae - Mamastrovirus
+
+Astrovirus wild boar-WBAstV-1-2011-HUN - (3.0)
+Bovine astrovirus B170-HK - (2.2)
+Bovine astrovirus B18-HK - (3.5)
+Bovine astrovirus B76-2-HK - (3.5)
+Bovine astrovirus B76-HK - (2.2)
+Feline astrovirus 2 - (2.6)
+HMO Astrovirus A - (4.7)
+Mamastrovirus 10 - (3.0)
+Mamastrovirus 13 - (M)
+Mamastrovirus 1 - (9.2)
+Porcine astrovirus 2 - (3.9)
+Porcine astrovirus 3 - (M)
+Porcine astrovirus 4 - (2.6)
+
+Barnaviridae - Barnavirus
+
+Mushroom bacilliform virus - (M)
+
+Benyvirus
+
+Beet necrotic yellow vein virus - RNA1 (4.3), RNA2 (1.9), RNA3 (2.8), RNA4 (3.3), RNA5 (3.1)
+Beet soil-borne mosaic virus - RNA1 (4.3), RNA2 (0.1), RNA3 (0.3), RNA4 (M)
+Burdock mottle virus - RNA1 (M), RNA2 (M)
+
+Bromoviridae - Alfamovirus
+
+Alfalfa mosaic virus - RNA1 (1.9), RNA2 (2.2), RNA3 (3.5)
+
+Bromoviridae - Anulavirus
+
+Amazon lily mild mottle virus - RNA1 (M), RNA2 (M), RNA3 (M)
+Pelargonium zonate spot virus - RNA1 (2.8), RNA2 (1.9), RNA3 (2.0)
+
+Bromoviridae - Bromovirus
+
+Broad bean mottle virus - RNA1 (M), RNA2 (M), RNA3 (M)
+Brome mosaic virus - RNA1 (1.4), RNA2 (1.4), RNA3 (1.3)
+Cassia yellow blotch virus - RNA1 (M), RNA2 (M), RNA3 (M)
+Cowpea chlorotic mottle virus - RNA1 (2.4), RNA2 (1.7), RNA3 (1.5)
+Melandrium yellow fleck virus - RNA1 (M), RNA2 (M), RNA3 (M)
+Spring beauty latent virus - RNA1 (M), RNA2 (M), RNA3 (M)
+
+Bromoviridae - Cucumovirus
+
+Cucumber mosaic virus - RNA1 (11.5), RNA2 (8.1), RNA3 (10.7)
+Gayfeather mild mottle virus - RNA1 (11.6), RNA2 (M), RNA3 (M)
+Peanut stunt virus - RNA1 (6.5), RNA2 (6.6), RNA3 (4.0)
+Tomato aspermy virus - RNA1 (4.8), RNA2 (1.6), RNA3 (4.7)
+
+Bromoviridae - Ilarvirus
+
+Ageratum latent virus - RNA1 (5.3), RNA2 (M), RNA3 (M)
+American plum line pattern virus - RNA1 (M), RNA2 (M), RNA3 (M)
+Apple mosaic virus - RNA1 (1.3), RNA2 (0.6), RNA3 (2.9)
+Asparagus virus 2 - RNA1 (4.1), RNA2 (4.7), RNA3 (M)
+Blackberry chlorotic ringspot virus - RNA1 (6.9), RNA2 (3.7), RNA3 (4.0)
+Blueberry shock virus - RNA1 (M), RNA2 (0.2), RNA3 (M)
+Citrus leaf rugose virus - RNA1 (0.3), RNA2 (0.4), RNA3 (0.5)
+Citrus variegation virus - RNA1 (4.1), RNA2 (4.0), RNA3 (M)
+Elm mottle virus - RNA1 (5.1), RNA2 (4.0), RNA3 (0.4)
+Fragaria chiloensis latent virus - RNA1 (M), RNA2 (M), RNA3 (M)
+Humulus japonicus latent virus - RNA1 (M), RNA2 (M), RNA3 (M)
+Parietaria mottle virus - RNA1 (5.3), RNA2 (2.7), RNA3 (3.2)
+Prune dwarf virus - RNA1 (M), RNA2 (M), RNA3 (3.7)
+Prunus necrotic ringspot virus - RNA1 (2.8), RNA2 (1.0), RNA3 (5.7)
+Spinach latent virus - RNA1 (5.0), RNA2 (M), RNA3 (M)
+Strawberry necrotic shock virus - RNA1 (6.9), RNA2 (3.7), RNA3 (M)
+Tobacco streak virus - RNA1 (5.1), RNA2 (4.6), RNA3 (5.0)
+Tulare apple mosaic virus - RNA1 (M), RNA2 (M), RNA3 (M)
+
+Bromoviridae - Oleavirus
+
+Olive latent virus 2 - RNA1 (M), RNA2 (M), RNA3 (2.1)
+
+Caliciviridae -
+
+Atlantic salmon calicivirus - (M)
+Calicivirus isolate TCG - (5.1)
+Canine calicivirus - (5.5)
+Goose calicivirus - (M)
+Walrus calicivirus - (7.3)
+
+Caliciviridae - Lagovirus
+
+European brown hare syndrome virus - (8.7)
+Rabbit calicivirus Australia 1 MIC-07 - (8.7)
+Rabbit hemorrhagic disease virus - (8.7)
+
+Caliciviridae - Nebovirus
+
+Calicivirus strain NB - (5.1)
+Newbury agent 1 - (5.1)
+
+Caliciviridae - Norovirus
+
+Murine norovirus 1 - (11.5)
+Norwalk virus - (8.7)
+
+Caliciviridae - Sapovirus
+
+Bat sapovirus TLC58-HK - (0.4)
+Porcine enteric sapovirus - (4.5)
+Sapovirus C12 - (7.4)
+Sapovirus Hu-Dresden-pJG-Sap01-DE - (7.0)
+Sapovirus Mc10 - (7.5)
+
+Caliciviridae - St-Valerien swine virus
+
+Calicivirus pig-AB90-CAN - (4.4)
+
+Caliciviridae - Vesivirus
+
+Feline calicivirus - (12.9)
+Mink calicivirus - (M)
+Rabbit vesivirus - (7.2)
+Steller sea lion vesivirus - (7.2)
+Vesicular exanthema of swine virus - (7.2)
+
+Carmotetraviridae - Alphacarmotetravirus
+
+Providence virus - (M)
+
+Cilevirus
+
+Citrus leprosis virus C - RNA1 (0.8), RNA2 (0.4)
+
+Closteroviridae -
+
+Blueberry virus A - (4.2)
+Carnation yellow fleck virus - (M)
+Grapevine leafroll-associated virus 7 - (1.8)
+Little cherry virus 1 - (4.1)
+
+Closteroviridae - Ampelovirus
+
+Blackberry vein banding associated virus - (M)
+Grapevine leafroll-associated virus 10 - (M)
+Grapevine leafroll-associated virus 1 - (M)
+Grapevine leafroll-associated virus 3 - (3.1)
+Grapevine leafroll-associated virus 4 - (4.3)
+Grapevine leafroll-associated virus 5 - (4.9)
+Grapevine leafroll-associated virus 6 - (3.6)
+Little cherry virus 2 - (M)
+Pineapple mealybug wilt-associated virus 1 - (M)
+Plum bark necrosis stem pitting-associated virus - (5.3)
+
+Closteroviridae - Closterovirus
+
+Beet yellows virus - (1.7)
+Carrot yellow leaf virus - (M)
+Citrus tristeza virus - (6.8)
+Grapevine leafroll-associated virus 2 - (5.5)
+Grapevine rootstock stem lesion associated virus - (5.5)
+Mint virus 1 - (M)
+Raspberry leaf mottle virus - (M)
+Strawberry chlorotic fleck-associated virus - (M)
+
+Closteroviridae - Crinivirus
+
+Bean yellow disorder virus - RNA1 (M), RNA2 (M)
+Beet pseudoyellows virus - RNA1 (2.6), RNA2 (0.8)
+Blackberry yellow vein-associated virus - RNA1 (M), RNA2 (M)
+Cucurbit chlorotic yellows virus - RNA1 (0.3), RNA2 (0.3)
+Cucurbit yellow stunting disorder virus - RNA1 (0.4), RNA2 (0.4)
+Lettuce chlorosis virus - RNA1 (M), RNA2 (M)
+Lettuce infectious yellows virus - RNA1 (M), RNA2 (M)
+Potato yellow vein virus - RNA1 (M), RNA2 (M), Seg-3 (M)
+Strawberry pallidosis-associated virus - RNA1 (M), RNA2 (M)
+Sweet potato chlorotic stunt virus - RNA1 (M), RNA2 (4.5)
+Tomato chlorosis virus - RNA1 (1.6), RNA2 (1.3)
+Tomato infectious chlorosis virus - RNA1 (0.5), RNA2 (0.5)
+
+environmental samples
+
+Marine RNA virus SOG - (M)
+
+Flaviviridae -
+
+Canine hepacivirus AAK-2011 - (5.2)
+Hepatitis GB virus B - (0.9)
+Jingmen Tick Virus - Seg-1 (M), Seg-2 (M), Seg-3 (M), Seg-4 (M)
+Soybean cyst nematode virus 5 - (M)
+Theilers disease-associated virus - (M)
+
+Flaviviridae - Flavivirus
+
+Aroa virus - (M)
+Ilheus virus - (5.0)
+Kama virus - (4.9)
+Kedougou virus - (0.2)
+Montana myotis leukoencephalitis virus - (M)
+Nhumirim virus - (M)
+Tamana bat virus - (M)
+
+Flaviviridae - Flavivirus Chaoyang group
+
+Chaoyang virus - (5.1)
+Donggang virus - (M)
+
+Flaviviridae - Flavivirus Dengue virus group
+
+Dengue virus 1 - (9.1)
+Dengue virus 2 - (9.1)
+Dengue virus 3 - (9.1)
+Dengue virus 4 - (7.8)
+
+Flaviviridae - Flavivirus Entebbe bat group
+
+Entebbe bat virus - (M)
+Yokose virus - (M)
+
+Flaviviridae - Flavivirus Insect specific group
+
+Aedes flavivirus - (1.0)
+Cell fusing agent virus - (1.6)
+Culex flavivirus - (4.5)
+Kamiti River virus - (0.3)
+Mosquito flavivirus - (4.2)
+Quang Binh virus - (4.2)
+
+Flaviviridae - Flavivirus Japanese encephalitis virus group
+
+Japanese encephalitis virus - (12.4)
+Murray Valley encephalitis virus - (12.7)
+St. Louis encephalitis virus - (7.0)
+Usutu virus - (12.5)
+West Nile virus - lineage 1 - (12.6)
+West Nile virus - lineage 2 - (12.7)
+
+Flaviviridae - Flavivirus Kokobera virus group
+
+Kokobera virus - (M)
+
+Flaviviridae - Flavivirus Ntaya virus group
+
+Bagaza virus - (7.4)
+Ntaya virus - (7.4)
+Tembusu virus - (7.4)
+
+Flaviviridae - Flavivirus Rio Bravo virus group
+
+Apoi virus - (M)
+Modoc virus - (M)
+Rio Bravo virus - (0.3)
+
+Flaviviridae - Flavivirus Seaborne tick-borne virus group
+
+Tyuleniy virus - (3.8)
+
+Flaviviridae - Flavivirus Spondweni virus group
+
+Zika virus - (5.5)
+
+Flaviviridae - Flavivirus tick-borne encephalitis virus group
+
+Alkhumra hemorrhagic fever virus - (13.0)
+Karshi virus - (3.9)
+Langat virus - (13.1)
+Louping ill virus - (12.5)
+Omsk hemorrhagic fever virus - (12.6)
+Powassan virus - (12.8)
+Tick-borne encephalitis virus - (13.1)
+
+Flaviviridae - Flavivirus Yellow fever virus group
+
+Sepik virus - (5.1)
+Wesselsbron virus - (5.2)
+Yellow fever virus - (8.2)
+
+Flaviviridae - Hepacivirus
+
+Hepatitis C virus genotype 2 - (22.5)
+Hepatitis C virus genotype 3 - (21.6)
+Hepatitis C virus genotype 4 - (21.4)
+Hepatitis C virus genotype 5 - (20.7)
+Hepatitis C virus genotype 6 - (22.1)
+Hepatitis C virus - (23.1)
+Rodent hepacivirus - (2.7)
+
+Flaviviridae - Pegivirus
+
+Equine pegivirus 1 - (M)
+GB virus C - (14.4)
+Pegivirus A - (M)
+Rodent pegivirus - (M)
+
+Flaviviridae - Pestivirus
+
+Border disease virus - (12.1)
+Bovine viral diarrhea virus 1 - (12.4)
+Bovine viral diarrhea virus 2 - (8.0)
+Bovine viral diarrhea virus 3 Th-04 KhonKaen - (3.4)
+Classical swine fever virus - (12.1)
+Pestivirus Giraffe-1 - (3.8)
+Pestivirus strain Aydin-04-TR - (12.1)
+Porcine pestivirus isolate Bungowannah - (M)
+Pronghorn antelope pestivirus - (M)
+
+Hepeviridae -
+
+Avian hepatitis E virus - (7.5)
+Bat hepevirus - (M)
+Cutthroat trout virus - (M)
+
+Hepeviridae - Hepevirus
+
+Ferret hepatitis E virus - (6.6)
+Hepatitis E virus - (24.2)
+Hepatitis E virus rat-R63-DEU-2009 - (8.1)
+
+Idaeovirus
+
+Raspberry bushy dwarf virus - RNA1 (2.2), RNA2 (3.4)
+
+Leviviridae -
+
+Caulobacter phage phiCb5 - (M)
+Enterobacteria phage M - (M)
+Pseudomonas phage PRR1 - (M)
+
+Leviviridae - Allolevivirus
+
+Enterobacteria phage FI sensu lato - (5.5)
+Enterobacteria phage Qbeta - (2.6)
+
+Leviviridae - Levivirus
+
+Acinetobacter phage AP205 - (M)
+Enterobacteria phage BZ13 - (4.1)
+Enterobacteria phage C-1 INW-2012 - (M)
+Enterobacteria phage Hgal1 - (M)
+Enterobacteria phage MS2 - (5.6)
+Pseudomonas phage PP7 - (M)
+
+Luteoviridae -
+
+Citrus vein enation virus - (M)
+
+Luteoviridae - Enamovirus
+
+Pea enation mosaic virus-1 - (1.2)
+
+Luteoviridae - Luteovirus
+
+Barley yellow dwarf virus-GAV - (7.2)
+Barley yellow dwarf virus Ker-II - (2.6)
+Barley yellow dwarf virus-MAV - (7.0)
+Barley yellow dwarf virus-PAS - (8.8)
+Barley yellow dwarf virus-PAV - (9.5)
+Bean leafroll virus - (1.4)
+Rose spring dwarf-associated virus - (M)
+Soybean dwarf virus - (3.4)
+
+Luteoviridae - Polerovirus
+
+Beet chlorosis virus - (1.8)
+Beet mild yellowing virus - (1.5)
+Beet western yellows virus - (2.7)
+Brassica yellows virus - (2.7)
+Carrot red leaf virus - (M)
+Cereal yellow dwarf virus-RPS - (M)
+Cereal yellow dwarf virus-RPV - (1.8)
+Chickpea chlorotic stunt virus - (2.9)
+Cotton leafroll dwarf virus - (0.8)
+Cucurbit aphid-borne yellows virus - (5.1)
+Maize yellow dwarf virus-RMV - (M)
+Melon aphid-borne yellows virus - (1.1)
+Pepper vein yellows virus - (M)
+Potato leafroll virus - (3.6)
+Suakwa aphid-borne yellows virus - (M)
+Sugarcane yellow leaf virus - (3.9)
+Tobacco vein distorting virus - (2.6)
+Turnip yellows virus - (M)
+Wheat yellow dwarf virus-GPV - (M)
+
+Narnaviridae - Narnavirus
+
+Saccharomyces 20S RNA narnavirus - (M)
+Saccharomyces 23S RNA narnavirus - (M)
+
+Negevirus
+
+Wallerfield virus - (M)
+
+Nidovirales - Arteriviridae - Arterivirus
+
+Equine arteritis virus - (5.1)
+Lactate dehydrogenase-elevating virus - (4.1)
+Porcine reproductive and respiratory syndrome virus - (11.2)
+Simian hemorrhagic fever virus - (M)
+
+Nidovirales - Coronaviridae - Coronavirinae -
+
+Bat coronavirus BM48-31-BGR-2008 - (6.3)
+Bovine respiratory coronavirus AH187 - (4.2)
+Bovine respiratory coronavirus bovine-US-OH-440-TC-1996 - (4.2)
+Human enteric coronavirus strain 4408 - (4.2)
+Munia coronavirus HKU13-3514 - (5.0)
+Thrush coronavirus HKU12-600 - (3.8)
+
+Nidovirales - Coronaviridae - Coronavirinae - Alphacoronavirus
+
+Bat coronavirus 1A - (2.8)
+Bat coronavirus 1B - (2.8)
+Bat coronavirus CDPHE15-USA-2006 - (M)
+Feline infectious peritonitis virus - (8.1)
+Human coronavirus 229E - (2.3)
+Human coronavirus NL63 - (1.6)
+Miniopterus bat coronavirus HKU8 - (M)
+Mink coronavirus strain WD1127 - (2.4)
+Porcine epidemic diarrhea virus - (2.6)
+Rhinolophus bat coronavirus HKU2 - (1.0)
+Rousettus bat coronavirus HKU10 - (2.0)
+Scotophilus bat coronavirus 512 - (M)
+
+Nidovirales - Coronaviridae - Coronavirinae - Betacoronavirus
+
+Bat coronavirus BtCoV-133-2005 - (1.7)
+Betacoronavirus Erinaceus-VMC-DEU-2012 - (1.3)
+Bovine coronavirus - (4.2)
+Equine coronavirus - (4.2)
+Human coronavirus HKU1 - (1.8)
+Human coronavirus OC43 - (4.2)
+Middle East respiratory syndrome coronavirus - (3.9)
+Murine hepatitis virus strain A59 - (3.6)
+Murine hepatitis virus strain JHM - (3.9)
+Pipistrellus bat coronavirus HKU5 - (1.7)
+Porcine hemagglutinating encephalomyelitis virus - (4.2)
+Rabbit coronavirus HKU14 - (4.2)
+Rat coronavirus Parker - (3.9)
+Rousettus bat coronavirus HKU9 - (5.4)
+SARS coronavirus - (6.4)
+Tylonycteris bat coronavirus HKU4 - (1.7)
+
+Nidovirales - Coronaviridae - Coronavirinae - Deltacoronavirus
+
+Common-moorhen coronavirus HKU21 - (M)
+Magpie-robin coronavirus HKU18 - (4.9)
+Night-heron coronavirus HKU19 - (M)
+Porcine coronavirus HKU15 - (4.6)
+Sparrow coronavirus HKU17 - (4.5)
+White-eye coronavirus HKU16 - (4.1)
+Wigeon coronavirus HKU20 - (M)
+
+Nidovirales - Coronaviridae - Coronavirinae - Gammacoronavirus
+
+Beluga Whale coronavirus SW1 - (1.6)
+Infectious bronchitis virus - (10.1)
+Turkey coronavirus - (9.6)
+
+Nidovirales - Coronaviridae - Torovirinae - Bafinivirus
+
+White bream virus - (M)
+
+Nidovirales - Coronaviridae - Torovirinae - Torovirus
+
+Breda virus - (3.6)
+Porcine torovirus - (3.6)
+
+Nidovirales - Mesoniviridae -
+
+Casuarina virus - (4.1)
+Hana virus - (5.1)
+Meno virus - (M)
+Nse virus - (M)
+
+Nidovirales - Mesoniviridae - Alphamesonivirus
+
+Cavally virus - (5.7)
+Nam Dinh virus - (5.7)
+
+Nidovirales - Roniviridae - Okavirus
+
+Gill-associated virus - (3.9)
+
+Nodaviridae -
+
+Macrobrachium rosenbergii nodavirus - RNA1 (2.5), RNA2 (2.9)
+Penaeus vannamei nodavirus - RNA1 (M), RNA2 (M)
+Santeuil nodavirus - RNA1 (M), RNA2 (M)
+
+Nodaviridae - Alphanodavirus
+
+Black beetle virus - RNA1 (4.7), RNA2 (4.9)
+Boolarra virus - RNA1 (4.6), RNA2 (M)
+Flock house virus - RNA1 (4.7), RNA2 (4.9)
+Nodamura virus - RNA1 (M), RNA2 (0.2)
+Pariacoto virus - RNA1 (M), RNA2 (M)
+
+Nodaviridae - Betanodavirus
+
+Barfin flounder nervous necrosis virus - RNA1 (6.3), RNA2 (7.4)
+Barfin flounder virus BF93Hok - RNA1 (6.3), RNA2 (7.4)
+Epinephelus tauvina nervous necrosis virus - RNA1 (6.2), RNA2 (7.3)
+Redspotted grouper nervous necrosis virus - RNA1 (6.2), RNA2 (7.3)
+Striped Jack nervous necrosis virus - RNA1 (6.2), RNA2 (7.4)
+Tiger puffer nervous necrosis virus - RNA1 (6.3), RNA2 (7.3)
+
+Ourmiavirus
+
+Cassava virus C - RNA1 (M), RNA2 (M), RNA3 (M)
+Epirus cherry virus - RNA1 (M), RNA2 (M), RNA3 (M)
+Ourmia melon virus - RNA1 (M), RNA2 (M), RNA3 (M)
+
+Permutotetraviridae - Alphapermutotetravirus
+
+Euprosterna elaeasa virus - (M)
+
+Picornavirales -
+
+Bluegill picornavirus - (M)
+Canine picornavirus - (M)
+Carp picornavirus 1 - (M)
+Halastavi arva RNA virus - (M)
+
+Picornavirales - Bacillarnavirus
+
+Chaetoceros socialis f. radians RNA virus 01 - (M)
+Rhizosolenia setigera RNA virus 01 - (M)
+
+Picornavirales - Dicistroviridae -
+
+Macrobrachium rosenbergii Taihu virus - (M)
+Mud crab dicistrovirus - (M)
+
+Picornavirales - Dicistroviridae - Aparavirus
+
+Acute bee paralysis virus - (2.3)
+Formica exsecta virus 1 - (4.6)
+Israeli acute paralysis virus - (5.0)
+Kashmir bee virus - (5.5)
+Solenopsis invicta virus-1 - (M)
+Taura syndrome virus - (3.6)
+
+Picornavirales - Dicistroviridae - Cripavirus
+
+Aphid lethal paralysis virus - (4.7)
+Black queen cell virus - (4.3)
+Cricket paralysis virus - (M)
+Drosophila C virus - (M)
+Himetobi P virus - (1.2)
+Homalodisca coagulata virus-1 - (M)
+Plautia stali intestine virus - (M)
+Rhopalosiphum padi virus - (0.9)
+Triatoma virus - (M)
+
+Picornavirales - environmental samples
+
+Marine RNA virus JP-A - (M)
+Marine RNA virus JP-B - (M)
+
+Picornavirales - Iflaviridae -
+
+Antheraea pernyi iflavirus - (M)
+Halyomorpha halys virus - (M)
+Laodelphax striatella honeydew virus 1 - (M)
+Nilaparvata lugens honeydew virus-2 - (M)
+Nilaparvata lugens honeydew virus-3 - (M)
+Spodoptera exigua iflavirus 1 - (M)
+Spodoptera exigua iflavirus 2 - (1.0)
+
+Picornavirales - Iflaviridae - Iflavirus
+
+Brevicoryne brassicae picorna-like virus - (M)
+Deformed wing virus - (4.5)
+Ectropis obliqua picorna-like virus - (3.6)
+Formica exsecta virus 2 - (M)
+Heliconius erato iflavirus - (M)
+Infectious flacherie virus - (0.6)
+Kakugo virus - (4.5)
+Perina nuda virus - (3.6)
+Sacbrood virus - (5.1)
+Slow bee paralysis virus - (4.1)
+Varroa destructor virus-1 - (4.4)
+
+Picornavirales - Labyrnavirus
+
+Aurantiochytrium single-stranded RNA virus 01 - (M)
+
+Picornavirales - Marnaviridae - Marnavirus
+
+Heterosigma akashiwo RNA virus - (M)
+
+Picornavirales - Picornaviridae -
+
+Bat picornavirus 1 - (4.1)
+Bat picornavirus 2 - (3.0)
+Bat picornavirus 3 - (0.0)
+Duck picornavirus GL-12 - (M)
+Eel picornavirus 1 - (M)
+Fathead minnow picornavirus - (3.5)
+Feline picornavirus - (6.4)
+Feline sakobuvirus A - (M)
+Pigeon picornavirus B - (4.0)
+Quail picornavirus QPV1-HUN-2010 - (M)
+Rosavirus 2 - (4.7)
+Salivirus A - (3.3)
+Salivirus NG-J1 - (3.3)
+Sicinivirus 1 - (M)
+Swine pasivirus 1 - (3.9)
+Tortoise rafivirus A - (M)
+Turdivirus 2 - (3.2)
+Turdivirus 3 - (2.3)
+Turkey gallivirus - (M)
+
+Picornavirales - Picornaviridae - Aphthovirus
+
+Bovine rhinitis B virus - (M)
+Equine rhinitis A virus - (5.8)
+Foot-and-mouth disease virus - type O - (17.6)
+
+Picornavirales - Picornaviridae - Aquamavirus
+
+Seal picornavirus type 1 - (M)
+
+Picornavirales - Picornaviridae - Avihepatovirus
+
+Duck hepatitis A virus 1 - (9.4)
+
+Picornavirales - Picornaviridae - Cardiovirus
+
+Encephalomyocarditis virus - (8.8)
+Human TMEV-like cardiovirus - (13.2)
+Saffold virus - (13.1)
+Theilovirus - (7.5)
+
+Picornavirales - Picornaviridae - Cosavirus
+
+Cosavirus A - (6.0)
+Human cosavirus B - (M)
+Human cosavirus D - (4.3)
+Human cosavirus E - (M)
+Human cosavirus - (4.3)
+
+Picornavirales - Picornaviridae - Dicipivirus
+
+Canine picodicistrovirus - (3.5)
+
+Picornavirales - Picornaviridae - Enterovirus
+
+Enterovirus A - (17.5)
+Enterovirus B - (34.5)
+Enterovirus C - (26.6)
+Enterovirus D - (7.3)
+Enterovirus E - (10.1)
+Enterovirus F - (10.3)
+Enterovirus G - (8.7)
+Enterovirus H - (4.1)
+Enterovirus J - NC_010415 (6.6), NC_013695 (7.4)
+Enterovirus sp. - (4.6)
+Human rhinovirus B14 - (17.8)
+Possum enterovirus W1 - (10.3)
+Rhinovirus A - (9.7)
+Rhinovirus C - (3.9)
+
+Picornavirales - Picornaviridae - Erbovirus
+
+Equine rhinitis B virus 1 - (4.2)
+
+Picornavirales - Picornaviridae - Hepatovirus
+
+Hepatitis A virus - (10.4)
+
+Picornavirales - Picornaviridae - Hunnivirus
+
+Bovine hungarovirus 1 - (4.4)
+
+Picornavirales - Picornaviridae - Kobuvirus
+
+Aichi virus 1 - (6.8)
+Bovine kobuvirus - (4.5)
+Caprine kobuvirus - (9.0)
+Mouse kobuvirus M-5-USA-2010 - (6.9)
+Porcine kobuvirus SH-W-CHN-2010-China - (8.8)
+Porcine kobuvirus swine-S-1-HUN-2007-Hungary - (8.9)
+
+Picornavirales - Picornaviridae - Megrivirus
+
+Chicken megrivirus - (3.4)
+Duck megrivirus - (M)
+Turkey hepatitis virus 2993D - (4.3)
+Turkey megrivirus - (4.2)
+
+Picornavirales - Picornaviridae - Mosavirus
+
+Mosavirus A2 - (M)
+
+Picornavirales - Picornaviridae - Orthoturdivirus
+
+Turdivirus 1 - (1.8)
+
+Picornavirales - Picornaviridae - Parechovirus
+
+Human parechovirus - (16.8)
+Ljungan virus - (6.5)
+Sebokele virus 1 - (M)
+
+Picornavirales - Picornaviridae - Sapelovirus
+
+Avian sapelovirus - (M)
+Porcine sapelovirus 1 - (4.8)
+Simian sapelovirus 1 - (5.5)
+
+Picornavirales - Picornaviridae - Senecavirus
+
+Seneca valley virus - (1.9)
+
+Picornavirales - Picornaviridae - Teschovirus
+
+Porcine teschovirus - (14.2)
+
+Picornavirales - Picornaviridae - Tremovirus
+
+Avian encephalomyelitis virus - (2.1)
+
+Picornavirales - Secoviridae -
+
+Black raspberry necrosis virus - RNA1 (5.5), RNA2 (5.3)
+Chocolate lily virus A - RNA1 (M), RNA2 (M)
+Strawberry latent ringspot virus - RNA1 (M), RNA2 (M)
+Strawberry mottle virus - RNA1 (M), RNA2 (M)
+
+Picornavirales - Secoviridae - Cheravirus
+
+Apple latent spherical virus - Seg-1 (M), Seg-2 (M)
+Arracacha virus B - RNA1 (M), RNA2 (M)
+Cherry rasp leaf virus - RNA1 (1.3), RNA2 (3.7)
+
+Picornavirales - Secoviridae - Comovirinae - Comovirus
+
+Bean pod mottle virus - RNA1 (4.0), RNA2 (3.6)
+Broad bean true mosaic virus - RNA1 (M), RNA2 (M)
+Cowpea mosaic virus - RNA1 (M), RNA2 (M)
+Cowpea severe mosaic virus - RNA1 (M), RNA2 (M)
+Radish mosaic virus - RNA1 (5.6), RNA2 (5.3)
+Red clover mottle virus - RNA1 (M), RNA2 (M)
+Squash mosaic virus - RNA1 (3.1), RNA2 (3.6)
+Turnip ringspot virus - RNA1 (5.5), RNA2 (4.0)
+
+Picornavirales - Secoviridae - Comovirinae - Fabavirus
+
+Broad bean wilt virus 1 - RNA1 (4.3), RNA2 (5.2)
+Broad bean wilt virus 2 - RNA1 (8.6), RNA2 (10.0)
+Lamium mild mosaic virus - RNA1 (M), RNA2 (M)
+Mikania micrantha mosaic virus - RNA1 (4.7), RNA2 (4.8)
+
+Picornavirales - Secoviridae - Comovirinae - Nepovirus Subgroup A
+
+Arabis mosaic virus - RNA1 (8.1), RNA2 (11.7)
+Grapevine deformation virus - RNA1 (6.4), RNA2 (3.9)
+Grapevine fanleaf virus - RNA1 (8.8), RNA2 (10.3)
+Potato black ringspot virus - RNA1 (6.2), RNA2 (4.4)
+Raspberry ringspot virus - RNA1 (3.1), RNA2 (5.5)
+Tobacco ringspot virus - RNA1 (6.2), RNA2 (M)
+
+Picornavirales - Secoviridae - Comovirinae - Nepovirus Subgroup B
+
+Beet ringspot virus - RNA1 (4.1), RNA2 (M)
+Cycas necrotic stunt virus - RNA1 (M), RNA2 (M)
+Grapevine Anatolian ringspot virus - RNA1 (M), RNA2 (M)
+Grapevine chrome mosaic virus - RNA1 (M), RNA2 (M)
+Tomato black ring virus - RNA1 (4.1), RNA2 (3.0)
+
+Picornavirales - Secoviridae - Comovirinae - Nepovirus Subgroup C
+
+Blackcurrant reversion virus - RNA1 (M), RNA2 (M)
+Cherry leaf roll virus - RNA1 (5.0), RNA2 (3.2)
+Grapevine Bulgarian latent virus - Seg-1 (M), Seg-2 (M)
+Tomato ringspot virus - RNA1 (M), RNA2 (M)
+
+Picornavirales - Secoviridae - Sadwavirus
+
+Satsuma dwarf virus - RNA1 (M), RNA2 (5.6)
+
+Picornavirales - Secoviridae - Sequivirus
+
+Parsnip yellow fleck virus - (M)
+
+Picornavirales - Secoviridae - Torradovirus
+
+Tomato chocolate spot virus - RNA1 (4.8), RNA2 (6.1)
+Tomato marchitez virus - RNA1 (4.8), RNA2 (6.1)
+Tomato torrado virus - RNA1 (0.8), RNA2 (0.8)
+
+Picornavirales - Secoviridae - Waikavirus
+
+Maize chlorotic dwarf virus - (M)
+Rice tungro spherical virus - (4.1)
+
+Polemovirus
+
+Poinsettia latent virus - (M)
+
+Potyviridae -
+
+Brugmansia mosaic virus - (3.5)
+Keunjorong mosaic virus - (M)
+Rose yellow mosaic virus - (M)
+Sunflower mild mosaic virus - (M)
+
+Potyviridae - Brambyvirus
+
+Blackberry virus Y - (M)
+
+Potyviridae - Bymovirus
+
+Barley mild mosaic virus - RNA1 (4.2), RNA2 (4.8)
+Barley yellow mosaic virus - RNA1 (5.7), RNA2 (3.8)
+Oat mosaic virus - RNA1 (M), RNA2 (M)
+Wheat yellow mosaic virus - RNA1 (5.8), RNA2 (3.7)
+
+Potyviridae - Ipomovirus
+
+Cassava brown streak virus - (4.9)
+Cucumber vein yellowing virus - (1.9)
+Squash vein yellowing virus - (0.5)
+Sweet potato mild mottle virus - (M)
+Ugandan cassava brown streak virus - (4.6)
+
+Potyviridae - Macluravirus
+
+Chinese yam necrotic mosaic virus - (M)
+
+Potyviridae - Poacevirus
+
+Caladenia virus A - (M)
+Sugarcane streak mosaic virus - (5.1)
+Triticum mosaic virus - (0.3)
+
+Potyviridae - Potyvirus
+
+Algerian watermelon mosaic virus - (M)
+Apium virus Y - (M)
+Arracacha mottle virus - (M)
+Banana bract mosaic virus - (1.9)
+Basella rugose mosaic virus - (3.8)
+Bean common mosaic necrosis virus - (1.7)
+Bean common mosaic virus - (7.8)
+Bean yellow mosaic virus - (7.9)
+Beet mosaic virus - (3.2)
+Bidens mosaic virus - (5.3)
+Bidens mottle virus - (1.8)
+Blue squill virus A - (7.1)
+Brugmansia suaveolens mottle virus - (M)
+Calla lily latent virus - (11.4)
+Canna yellow streak virus - (0.0)
+Celery mosaic virus - (M)
+Chilli ringspot virus - (M)
+Chilli veinal mottle virus - (5.9)
+Clover yellow vein virus - (2.3)
+Cocksfoot streak virus - (3.8)
+Colombian datura virus - (M)
+Cowpea aphid-borne mosaic virus - (3.5)
+Daphne mosaic virus - (M)
+Dasheen mosaic virus - (M)
+Donkey orchid virus A - (M)
+East Asian Passiflora virus - (4.0)
+Freesia mosaic virus - (M)
+Fritillary virus Y - (M)
+Habenaria mosaic virus - (M)
+Hardenbergia mosaic virus - (7.1)
+Hippeastrum mosaic virus - (0.0)
+Iranian johnsongrass mosaic virus - (M)
+Japanese yam mosaic virus - (3.8)
+Johnsongrass mosaic virus - (M)
+Konjac mosaic virus - (M)
+Leek yellow stripe virus - (6.3)
+Lettuce mosaic virus - (2.6)
+Lily mottle virus - (4.3)
+Lupine mosaic virus - (M)
+Maize dwarf mosaic virus - (6.9)
+Moroccan watermelon mosaic virus - (M)
+Narcissus degeneration virus - (1.8)
+Narcissus late season yellows virus - (6.7)
+Narcissus yellow stripe virus - (6.7)
+Onion yellow dwarf virus - (5.6)
+Ornithogalum mosaic virus - (1.2)
+Panax virus Y - (M)
+Papaya leaf distortion mosaic virus - (2.4)
+Papaya ringspot virus - (7.6)
+Passion fruit woodiness virus - (0.6)
+Peanut mottle virus - (1.3)
+Pea seed-borne mosaic virus - (4.5)
+Pennisetum mosaic virus - (3.2)
+Pepper mottle virus - (2.8)
+Pepper severe mosaic virus - (M)
+Pepper veinal mottle virus - (0.8)
+Pepper yellow mosaic virus - (M)
+Peru tomato mosaic virus - (6.4)
+Plum pox virus - (8.8)
+Pokeweed mosaic virus - (3.8)
+Potato virus A - (4.1)
+Potato virus V - (6.3)
+Potato virus Y - (9.9)
+Scallion mosaic virus - (M)
+Shallot yellow stripe virus - (2.3)
+Sorghum mosaic virus - (8.1)
+Soybean mosaic virus - (11.5)
+Sugarcane mosaic virus - (9.6)
+Sunflower chlorotic mottle virus - (5.2)
+Sweet potato feathery mottle virus - (5.5)
+Sweet potato latent virus - (M)
+Sweet potato virus 2 - (M)
+Sweet potato virus C - (5.5)
+Sweet potato virus G - (0.8)
+Telosma mosaic virus - (M)
+Thunberg fritillary virus - (1.0)
+Tobacco etch virus - (2.7)
+Tobacco vein banding mosaic virus - (4.1)
+Tobacco vein mottling virus - (3.0)
+Tomato necrotic stunt virus - (0.0)
+Turnip mosaic virus - (18.2)
+Vallota speciosa virus - (M)
+Verbena virus Y - (M)
+Watermelon mosaic virus - (8.3)
+Wild potato mosaic virus - (6.4)
+Wild tomato mosaic virus - (M)
+Wisteria vein mosaic virus - (11.6)
+Yam bean mosaic virus - (7.8)
+Yam mild mosaic virus - (6.3)
+Yam mosaic virus - (M)
+Zantedeschia mild mosaic virus - (M)
+Zucchini tigre mosaic virus - (5.1)
+Zucchini yellow mosaic virus - (6.2)
+
+Potyviridae - Rymovirus
+
+Agropyron mosaic virus - (M)
+Hordeum mosaic virus - (M)
+Ryegrass mosaic virus - (2.4)
+
+Potyviridae - Tritimovirus
+
+Brome streak mosaic virus - (M)
+Oat necrotic mottle virus - (6.8)
+Tall oatgrass mosaic virus - (M)
+Wheat eqlid mosaic virus - (M)
+Wheat streak mosaic virus - (6.9)
+
+Sobemovirus
+
+Artemisia virus A - (M)
+Cocksfoot mottle virus - (2.8)
+Imperata yellow mottle virus - (M)
+Lucerne transient streak virus - (M)
+Papaya lethal yellowing virus - (M)
+Rice yellow mottle virus - (6.2)
+Ryegrass mottle virus - (M)
+Sesbania mosaic virus - (M)
+Southern bean mosaic virus - (M)
+Southern cowpea mosaic virus - (M)
+Sowbane mosaic virus - (2.0)
+Soybean yellow common mosaic virus - (M)
+Subterranean clover mottle virus - (0.9)
+Turnip rosette virus - (2.4)
+Velvet tobacco mottle virus - (0.2)
+
+Togaviridae - Alphavirus
+
+Aura virus - (M)
+Barmah Forest virus - (M)
+Eilat virus - (M)
+Ndumu virus - (M)
+Salmon pancreas disease virus - (2.9)
+Sleeping disease virus - (2.9)
+Southern elephant seal virus - (M)
+
+Togaviridae - Alphavirus EEEV complex
+
+Eastern equine encephalitis virus - (8.7)
+Madariaga virus - (8.7)
+
+Togaviridae - Alphavirus SFV complex
+
+Bebaru virus - (5.0)
+Chikungunya virus - (6.7)
+Getah virus - (5.4)
+Mayaro virus - (3.7)
+O-nyong-nyong virus - (6.7)
+Ross River virus - (5.4)
+Semliki forest virus - (1.3)
+
+Togaviridae - Alphavirus VEEV complex
+
+Venezuelan equine encephalitis virus - (11.1)
+
+Togaviridae - Alphavirus WEEV complex
+
+Fort Morgan virus - (6.7)
+Highlands J virus - (6.7)
+Sindbis virus - (7.0)
+Western equine encephalitis virus - (6.7)
+Whataroa virus - (7.1)
+
+Togaviridae - Rubivirus
+
+Rubella virus - (6.3)
+
+Tombusviridae -
+
+Pelargonium chlorotic ring pattern virus - (M)
+Pelargonium line pattern virus - (2.6)
+Rosa rugosa leaf distortion virus - (3.2)
+
+Tombusviridae - Alphanecrovirus
+
+Olive latent virus 1 - (4.5)
+Olive mild mosaic virus - (5.2)
+Tobacco necrosis virus A - (4.6)
+
+Tombusviridae - Aureusvirus
+
+Cucumber leaf spot virus - (1.8)
+Johnsongrass chlorotic stripe mosaic virus - (M)
+Maize white line mosaic virus - (M)
+Pothos latent virus - (2.6)
+Yam spherical virus - (M)
+
+Tombusviridae - Avenavirus
+
+Oat chlorotic stunt virus - (M)
+
+Tombusviridae - Betanecrovirus
+
+Beet black scorch virus - (4.6)
+Leek white stripe virus - (M)
+Tobacco necrosis virus D - (3.8)
+
+Tombusviridae - Carmovirus
+
+Angelonia flower break virus - (M)
+Calibrachoa mottle virus - (M)
+Cardamine chlorotic fleck virus - (M)
+Carnation mottle virus - (2.5)
+Cowpea mottle virus - (M)
+Hibiscus chlorotic ringspot virus - (3.2)
+Honeysuckle ringspot virus - (M)
+Japanese iris necrotic ring virus - (M)
+Melon necrotic spot virus - (5.1)
+Nootka lupine vein clearing virus - (M)
+Pea stem necrosis virus - (M)
+Pelargonium flower break virus - (1.3)
+Saguaro cactus virus - (M)
+Soybean yellow mottle mosaic virus - (1.5)
+TGP Carmovirus 1 - (M)
+Turnip crinkle virus - (1.4)
+
+Tombusviridae - Dianthovirus
+
+Carnation ringspot virus - RNA1 (M), RNA2 (M)
+Red clover necrotic mosaic virus - RNA1 (3.8), RNA2 (3.7)
+Sweet clover necrotic mosaic virus - RNA1 (3.8), RNA2 (1.9)
+
+Tombusviridae - Gallantivirus
+
+Galinsoga mosaic virus - (M)
+
+Tombusviridae - Macanavirus
+
+Furcraea necrotic streak virus - (M)
+
+Tombusviridae - Machlomovirus
+
+Maize chlorotic mottle virus - (1.7)
+
+Tombusviridae - Panicovirus
+
+Cocksfoot mild mosaic virus - (M)
+Panicum mosaic virus - (M)
+Thin paspalum asymptomatic virus - (2.1)
+
+Tombusviridae - Tombusvirus
+
+Artichoke mottled crinkle virus - (8.0)
+Carnation Italian ringspot virus - (4.1)
+Cucumber Bulgarian virus - (M)
+Cucumber necrosis virus - (7.2)
+Cymbidium ringspot virus - (7.5)
+Eggplant mottled crinkle virus - (8.0)
+Grapevine Algerian latent virus - (7.9)
+Lettuce necrotic stunt virus - (7.5)
+Lisianthus necrosis virus - (8.0)
+Moroccan pepper virus - (7.4)
+Pear latent virus - (8.0)
+Pelargonium necrotic spot virus - (2.6)
+Tomato bushy stunt virus - (8.1)
+
+Tombusviridae - Zeavirus
+
+Maize necrotic streak virus - (M)
+
+Tymovirales - Alphaflexiviridae -
+
+Blackberry virus E - (M)
+
+Tymovirales - Alphaflexiviridae - Allexivirus
+
+Garlic virus A - (4.8)
+Garlic virus C - (4.5)
+Garlic virus D - (5.1)
+Garlic virus E - (M)
+Garlic virus X - (3.0)
+Shallot virus X - (2.2)
+
+Tymovirales - Alphaflexiviridae - Botrexvirus
+
+Botrytis virus X - (M)
+
+Tymovirales - Alphaflexiviridae - Lolavirus
+
+Lolium latent virus - (M)
+
+Tymovirales - Alphaflexiviridae - Mandarivirus
+
+Indian citrus ringspot virus - (4.7)
+
+Tymovirales - Alphaflexiviridae - Potexvirus
+
+Allium virus X - (M)
+Alstroemeria virus x - (M)
+Alternanthera mosaic virus - (2.6)
+Asparagus virus 3 - (4.4)
+Bamboo mosaic virus - (3.4)
+Cactus virus X - (4.7)
+Cassava common mosaic virus - (M)
+Clover yellow mosaic virus - (M)
+Cymbidium mosaic virus - (4.2)
+Foxtail mosaic virus - (1.2)
+Hosta virus X - (M)
+Hydrangea ringspot virus - (1.6)
+Lettuce virus X - (M)
+Lily virus X - (M)
+Malva mosaic virus - (M)
+Mint virus X - (M)
+Narcissus mosaic virus - (1.4)
+Nerine virus X - (0.7)
+Opuntia virus X - (M)
+Papaya mosaic virus - (0.5)
+Pepino mosaic virus - (6.6)
+Phaius virus X - (M)
+Plantago asiatica mosaic virus - (5.4)
+Potato aucuba mosaic virus - (M)
+Potato virus X - (6.8)
+Scallion virus X - (4.3)
+Schlumbergera virus X - (M)
+Strawberry mild yellow edge virus - (3.8)
+Tamus red mosaic virus - (M)
+Tulip virus X - (M)
+White clover mosaic virus - (3.7)
+Zygocactus virus X - (4.7)
+
+Tymovirales - Alphaflexiviridae - Sclerodarnavirus
+
+Sclerotinia sclerotiorum debilitation-associated RNA virus - (M)
+
+Tymovirales - Betaflexiviridae -
+
+African oil palm ringspot virus - (M)
+Apricot vein clearing associated virus - (M)
+Banana mild mosaic virus - (M)
+Cherry green ring mottle virus - (4.8)
+Cherry necrotic rusty mottle virus - (8.4)
+Cherry rusty mottle associated virus - (8.0)
+Hardenbergia virus A - (M)
+Sugarcane striate mosaic-associated virus - (M)
+
+Tymovirales - Betaflexiviridae - Capillovirus
+
+Apple stem grooving virus - (7.8)
+Cherry virus A - (3.6)
+
+Tymovirales - Betaflexiviridae - Carlavirus
+
+Aconitum latent virus - (M)
+American hop latent virus - (0.9)
+Blueberry scorch virus - (5.2)
+Butterbur mosaic virus - (M)
+Chrysanthemum virus B - (3.4)
+Coleus vein necrosis virus - (M)
+Cowpea mild mottle virus - (M)
+Daphne virus S - (M)
+Gaillardia latent virus - (M)
+Garlic common latent virus - (2.3)
+Garlic latent virus - (5.9)
+Helleborus net necrosis virus - (4.4)
+Hippeastrum latent virus - (M)
+Hop latent virus - (1.6)
+Hop mosaic virus - (M)
+Hydrangea chlorotic mottle virus - (M)
+Kalanchoe latent virus - (4.3)
+Ligustrum necrotic ringspot virus - (M)
+Lily symptomless virus - (1.6)
+Mirabilis jalapa mottle virus - (M)
+Narcissus common latent virus - (M)
+Narcissus symptomless virus - (1.2)
+Passiflora latent carlavirus - (M)
+Phlox Virus B - (M)
+Phlox virus S - (M)
+Poplar mosaic virus - (1.5)
+Potato latent virus - (M)
+Potato virus H - (2.1)
+Potato virus M - (3.1)
+Potato Virus P - (0.7)
+Potato virus S - (5.8)
+Red clover vein mosaic virus - (M)
+Sweet potato C6 virus - (M)
+Sweet potato chlorotic fleck virus - (M)
+
+Tymovirales - Betaflexiviridae - Citrivirus
+
+Citrus leaf blotch virus - (4.6)
+
+Tymovirales - Betaflexiviridae - Foveavirus
+
+Apple green crinkle associated virus - (10.0)
+Apple stem pitting virus - (10.0)
+Apricot latent virus - (10.0)
+Grapevine rupestris stem pitting-associated virus - (6.6)
+Peach chlorotic mottle virus - (M)
+Rubus canadensis virus 1 - (M)
+
+Tymovirales - Betaflexiviridae - Tepovirus
+
+Potato virus T - (2.0)
+
+Tymovirales - Betaflexiviridae - Trichovirus
+
+Apple chlorotic leaf spot virus - (9.5)
+Apricot pseudo-chlorotic leaf spot virus - (M)
+Cherry mottle leaf virus - (5.0)
+Grapevine berry inner necrosis virus - (M)
+Grapevine Pinot gris virus - (M)
+Peach mosaic virus - (M)
+
+Tymovirales - Betaflexiviridae - Vitivirus
+
+Actinidia virus B - (M)
+Grapevine virus A - (8.8)
+Grapevine virus B - (5.9)
+Grapevine virus E - (1.1)
+Grapevine virus F - (M)
+
+Tymovirales - Gammaflexiviridae - Mycoflexivirus
+
+Botrytis virus F - (M)
+
+Tymovirales - Tymoviridae -
+
+Poinsettia mosaic virus - (1.5)
+
+Tymovirales - Tymoviridae - Maculavirus
+
+Bombyx mori Macula-like virus - (0.9)
+Culex originated Tymoviridae-like virus - (M)
+Fig fleck-associated virus - (M)
+Grapevine fleck virus - (M)
+
+Tymovirales - Tymoviridae - Marafivirus
+
+Citrus sudden death-associated virus - (3.0)
+Grapevine Syrah virus 1 - (1.0)
+Maize rayado fino virus - (4.2)
+Oat blue dwarf virus - (1.7)
+Olive latent virus 3 - (M)
+Switchgrass mosaic virus - (M)
+
+Tymovirales - Tymoviridae - Tymovirus
+
+Anagyris vein yellowing virus - (M)
+Andean potato latent virus - (M)
+Andean potato mild mosaic virus - (M)
+Asclepias asymptomatic virus - (M)
+Chayote mosaic virus - (M)
+Chiltepin yellow mosaic virus - (1.6)
+Diascia yellow mottle virus - (M)
+Dulcamara mottle virus - (M)
+Eggplant mosaic virus - (M)
+Erysimum latent virus - (M)
+Kennedya yellow mosaic virus - (M)
+Nemesia ring necrosis virus - (M)
+Okra mosaic virus - (M)
+Ononis yellow mosaic virus - (M)
+Physalis mottle virus - (M)
+Plantago mottle virus - (M)
+Scrophularia mottle virus - (M)
+Tomato blistering mosaic virus - (M)
+Turnip yellow mosaic virus - (2.1)
+
+Tymovirales - unclassified Flexiviridae -
+
+Diuris virus A - (M)
+Diuris virus B - (M)
+White ash mosaic virus - (M)
+
+Umbravirus
+
+Carrot mottle mimic virus - (2.7)
+Carrot mottle virus - (M)
+Groundnut rosette virus - (M)
+Pea enation mosaic virus-2 - (2.3)
+Tobacco bushy top virus - (2.8)
+
+Virgaviridae - Furovirus
+
+Chinese wheat mosaic virus - RNA1 (4.7), RNA2 (2.1)
+Oat golden stripe virus - RNA1 (M), RNA2 (M)
+Soil-borne cereal mosaic virus - RNA1 (4.8), RNA2 (4.7)
+Soil-borne wheat mosaic virus - RNA1 (6.0), RNA2 (1.2)
+Sorghum chlorotic spot virus - RNA1 (M), RNA2 (M)
+
+Virgaviridae - Hordeivirus
+
+Barley stripe mosaic virus - RNA1 (2.4), RNA2 (2.0), RNA3 (0.9)
+
+Virgaviridae - Pecluvirus
+
+Indian peanut clump virus - RNA1 (4.5), RNA2 (M)
+Peanut clump virus - RNA1 (4.5), RNA2 (M)
+
+Virgaviridae - Pomovirus
+
+Beet soil-borne virus - RNA1 (1.7), RNA2 (1.7), RNA3 (1.9)
+Beet virus Q - RNA1 (M), RNA2 (M), RNA3 (M)
+Broad bean necrosis virus - RNA1 (M), RNA2 (M), RNA3 (M)
+Potato mop-top virus - RNA1 (0.5), RNA2 (1.2), RNA3 (1.5)
+
+Virgaviridae - Tobamovirus
+
+Bell pepper mottle virus - (8.4)
+Brugmansia mild mottle virus - (M)
+Cactus mild mottle virus - (M)
+Clitoria yellow mottle virus - (M)
+Cucumber fruit mottle mosaic virus - (6.1)
+Cucumber green mottle mosaic virus - (4.0)
+Cucumber mottle virus - (M)
+Frangipani mosaic virus - (1.0)
+Hibiscus latent Singapore virus - (0.3)
+Kyuri green mottle mosaic virus - (6.1)
+Maracuja mosaic virus - (4.6)
+Obuda pepper virus - (4.1)
+Odontoglossum ringspot virus - (1.2)
+Paprika mild mottle virus - (4.1)
+Passion fruit mosaic virus - (2.0)
+Pepper mild mottle virus - (2.4)
+Rattail cactus necrosis associated virus - (M)
+Rehmannia mosaic virus - (8.4)
+Ribgrass mosaic virus - (7.3)
+Streptocarpus flower break virus - (M)
+Tobacco mild green mosaic virus - (1.5)
+Tobacco mosaic virus - (8.4)
+Tomato mosaic virus - (9.2)
+Tomato mottle mosaic virus - (8.4)
+Turnip vein-clearing virus - (7.3)
+Wasabi mottle virus - (7.3)
+Yellow tailflower mild mottle virus - (0.1)
+Youcai mosaic virus - (7.3)
+Zucchini green mottle mosaic virus - (6.1)
+
+Virgaviridae - Tobravirus
+
+Pea early-browning virus - RNA1 (M), RNA2 (0.5)
+Pepper ringspot virus - RNA1 (M), RNA2 (1.1)
+Tobacco rattle virus - RNA1 (3.6), RNA2 (M)
+
+Unclassified viruses
+
+Acyrthosiphon pisum virus - (4.3)
+Anopheline-associated C virus - RNA1 (M), RNA2 (M)
+Beet western yellows ST9 associated virus - (M)
+Blueberry necrotic ring blotch virus - RNA1 (2.8), RNA2 (2.8), RNA3 (2.3), RNA4 (2.2)
+Carrot red leaf luteovirus associated RNA - (2.5)
+Chronic bee paralysis virus - RNA1 (2.6), RNA2 (2.3)
+Diaporthe ambigua RNA virus 1 - (M)
+Donkey orchid symptomless virus - (2.3)
+Hibiscus green spot virus - RNA1 (M), RNA2 (M), RNA3 (M)
+Kelp fly virus - (M)
+Lake Sinai virus 1 - (M)
+Nora virus - (1.5)
+Oyster mushroom spherical virus - (M)
+Phytophthora infestans RNA virus 1 - RNA1 (M), RNA2A (M)
+Posavirus 1 - (M)
+Posavirus 2 - (M)
+Sclerophthora macrospora virus A - RNA1 (M), RNA2 (M)
+Sclerophthora macrospora virus B - (M)
+Solenopsis invicta virus 2 - (M)
+Solenopsis invicta virus 3 - (1.6)
+Tanay virus - (0.6)
+
