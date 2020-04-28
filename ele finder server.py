@@ -114,12 +114,14 @@ if __name__ == '__main__':
         with open('temp.txt', 'w') as file:
             file.write(element)
             
-        it = (df['Seq'].to_list())
+        it = iter(df['Seq'].to_list())
         
         #result returned as a list the length of iterator it
         result = pool.map(f, it)
                 
         resultdf[element] = result
+        
+        pool.close()
                 
     resultdf.to_csv('win6 .csv', index = False)
 
