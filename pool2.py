@@ -80,11 +80,12 @@ if __name__ == '__main__':
 
     winlist6 = []
 
-    for i in range(6,7):
+    for i in range(1,6):
         for i in (itertools.product('ATGC', repeat=i)):
             winlist6.append(''.join(i))
           
-    winlist = winlist6
+    winlist = winlist6[682:]
+    
     
     print('Made %d windows.' % len(winlist))
     
@@ -94,7 +95,7 @@ if __name__ == '__main__':
     #working loop
     
     for element in winlist:
-        pool = Pool(processes=16)
+        pool = Pool(processes=4)
         
         with open('temp.txt', 'w') as file:
             file.write(element)
@@ -111,8 +112,8 @@ if __name__ == '__main__':
         print('%d done.' % winlist.index(element))
         
         #writing in 3 parts
-        if winlist.index(element) == 2048:
-            resultdf.to_csv('pinv w6p1.csv', index = False)
+        if winlist.index(element) == 682:
+            resultdf.to_csv('pinv w5p2.csv', index = False)
                 
-    resultdf.to_csv('pinv w6.csv', index = False)
+    resultdf.to_csv('pinv w5.csv', index = False)
 
