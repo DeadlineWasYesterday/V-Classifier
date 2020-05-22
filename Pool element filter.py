@@ -30,9 +30,9 @@ def count_in_range(df):
     iter1 = []
     
     for number in df.iloc[:, 1:].values.flatten():
-        iter1.append((er1, nr1, number, nr2, er2))
+        iter1.append((nr1, er1 number, er2, nr2))   #attempted fix
       
-    pool = Pool(processes = 14)
+    pool = Pool(processes = 15)
     x = pool.map(f, iter1)
     pool.close()
     
@@ -55,14 +55,14 @@ if __name__ == '__main__':
     
     print('Load time: %d' % (tml - tms))
     
-    print('Shape of df1: (%dx%d).' % df1.shape)
-    print('Shape of df2: (%dx%d).' % df2.shape)
+    #print('Shape of df1: (%dx%d).' % df1.shape)
+    #print('Shape of df2: (%dx%d).' % df2.shape)
 
     elements = list(df1.columns[10:])
     families = list(set(df1['Fam'].to_list()))
     
-    print('Number of elements: %d.' % len(elements))
-    print('Number of families: %d.' % len(families))
+    #print('Number of elements: %d.' % len(elements))
+    #print('Number of families: %d.' % len(families))
 
     fdfce = pd.DataFrame(index = elements, columns = families + ['htr']).fillna(0)
     fdfse = pd.DataFrame(index = elements, columns = families + ['htr']).fillna(0)
@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
 
     #challenger
-    for i in range(100):
+    for i in range(5):
         p = df1.loc[df1['Gen'] == 'ssRNA(+)'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:]
         p2 = df1.loc[df1['Gen'] == 'ssRNA(+)i'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:] #changed the i
         n = df1.loc[df1['Gen'] == 'ssRNA(-)'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:]
@@ -82,8 +82,8 @@ if __name__ == '__main__':
         wdf1 = pd.concat([p,p2,n,n2], axis = 0).reset_index(drop = True)  
         wdf2 = df2.loc[df2['die'] == 'no'].sample(960).iloc[:,5:].reset_index(drop = True) #watch out for this
         
-        print('Shape of wdf1: (%dx%d)' % wdf1.shape)
-        print('Shape of wdf2: (%dx%d)' % wdf2.shape)
+        #print('Shape of wdf1: (%dx%d)' % wdf1.shape)
+        #print('Shape of wdf2: (%dx%d)' % wdf2.shape)
 
         for c in wdf1.iloc[:,1:].columns:
             tdf = pd.concat([wdf1['Fam'], wdf1[c], wdf2[c]], axis = 1)
@@ -104,21 +104,18 @@ if __name__ == '__main__':
         
         print('Challenger time: %d' % (tmc - tml))
 
-        fdfce.to_csv('fdfce %d' % i)
-        fdfcn.to_csv('fdfcn %d' % i)
-
         #scontrol score
         tdf = pd.concat([wdf1.iloc[:,1:],wdf2], axis = 0).reset_index(drop = True)
         tdf = tdf.sample(frac=1).reset_index(drop = True)
         fam = wdf1['Fam']
         
-        print('Shape of tdf: (%dx%d)' % tdf.shape)
+        #print('Shape of tdf: (%dx%d)' % tdf.shape)
         
         wdf1 = pd.concat([fam,tdf[:960]], axis = 1)
         wdf2 = tdf[960:].reset_index(drop= True)
         
-        print('Shape of wdf1: (%dx%d)' % wdf1.shape)
-        print('Shape of wdf2: (%dx%d)' % wdf2.shape)
+        #print('Shape of wdf1: (%dx%d)' % wdf1.shape)
+        #print('Shape of wdf2: (%dx%d)' % wdf2.shape)
 
         for c in wdf1.iloc[:,1:].columns:
             tdf = pd.concat([wdf1['Fam'], wdf1[c], wdf2[c]], axis = 1)
@@ -135,19 +132,19 @@ if __name__ == '__main__':
             fdfse.loc[c,'htr'] = he
             fdfsn.loc[c,'htr'] = hn
 
-        print('%d challenger iterations remaining.' % (99-i))
+        print('%d challenger iterations remaining.' % (5-i))
         
         tms = time.time()
         
         print('SControl time: %d' % (tms - tmc))
         
-        fdfse.to_csv('fdfse %d' % i)
-        fdfsn.to_csv('fdfsn %d' % i)
-        
-        break
+    fdfce.to_csv('fdfce 1.5', index_label = 'Ele')
+    fdfcn.to_csv('fdfcn 1.5', index_label = 'Ele')
+    fdfse.to_csv('fdfse 1.5', index_label = 'Ele')
+    fdfsn.to_csv('fdfsn 1.5', index_label = 'Ele')
         
     #p control
-    for i in range(100):
+    for i in range(5):
         p = df1.loc[df1['Gen'] == 'ssRNA(+)'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:]
         p2 = df1.loc[df1['Gen'] == 'ssRNA(+)'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:] #change the i
         n = df1.loc[df1['Gen'] == 'ssRNA(-)'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:]
@@ -156,8 +153,8 @@ if __name__ == '__main__':
         wdf1 = pd.concat([p,p2,n,n2], axis = 0).reset_index(drop = True)  
         wdf2 = df2.loc[df2['die'] == 'no'].sample(960).iloc[:,5:].reset_index(drop = True) #watch out for this
         
-        print('Shape of wdf1: (%dx%d)' % wdf1.shape)
-        print('Shape of wdf2: (%dx%d)' % wdf2.shape)
+        #print('Shape of wdf1: (%dx%d)' % wdf1.shape)
+        #print('Shape of wdf2: (%dx%d)' % wdf2.shape)
 
         for c in wdf1.iloc[:,1:].columns:
             tdf = pd.concat([wdf1['Fam'], wdf1[c], wdf2[c]], axis = 1)
@@ -174,14 +171,13 @@ if __name__ == '__main__':
             fdfpe.loc[c,'htr'] = he
             fdfpn.loc[c,'htr'] = hn
 
-        print('%d control iterations remaining.' % (99-i))
+        print('%d control iterations remaining.' % (5-i))
         
         tmp = time.time()
         
         print('PControl time %d' % (tmp - tms))
         
-        fdfse.to_csv('fdfpe %d' % i)
-        fdfsn.to_csv('fdfpn %d' % i)
-        break
+    fdfpe.to_csv('fdfpe 1.5', index_label = 'Ele')
+    fdfpn.to_csv('fdfpn 1.5', index_label = 'Ele')
         
 
