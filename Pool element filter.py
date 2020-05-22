@@ -7,6 +7,7 @@
 import numpy as np
 import pandas as pd
 from multiprocessing import Pool
+import time
 
 def f(it):
     if it[0] < it[2] < it[4]:
@@ -45,8 +46,14 @@ def count_in_range(df):
 #sample df1 into 720 entries
 if __name__ == '__main__':
     
+    tms = time.time()
+    
     df1 = pd.concat([pd.read_csv('ppnnw5.csv'), pd.read_csv('ppnnw6.csv').iloc[:,10:]], axis = 1)
     df2 = pd.concat([pd.read_csv('h1w5.csv'), pd.read_csv('h1w6p1.csv').iloc[:,5:], pd.read_csv('h1w6p2.csv').iloc[:,5:]], axis = 1)
+    
+    tml = time.time()
+    
+    print('Load time: %d' % (tml - tms))
     
     print('Shape of df1: (%dx%d).' % df1.shape)
     print('Shape of df2: (%dx%d).' % df2.shape)
@@ -92,6 +99,10 @@ if __name__ == '__main__':
 
             fdfce.loc[c,'htr'] = he
             fdfcn.loc[c,'htr'] = hn
+            
+        tmc = time.time()
+        
+        print('Challenger time: %d' % (tmc - tml))
 
         fdfce.to_csv('fdfce %d' % i)
         fdfcn.to_csv('fdfcn %d' % i)
@@ -125,6 +136,10 @@ if __name__ == '__main__':
             fdfsn.loc[c,'htr'] = hn
 
         print('%d challenger iterations remaining.' % (99-i))
+        
+        tms = time.time()
+        
+        print('SControl time: %d' % (tms - tmc))
         
         fdfse.to_csv('fdfse %d' % i)
         fdfsn.to_csv('fdfsn %d' % i)
@@ -160,6 +175,11 @@ if __name__ == '__main__':
             fdfpn.loc[c,'htr'] = hn
 
         print('%d control iterations remaining.' % (99-i))
+        
+        tmp = time.time()
+        
+        print('PControl time %d' % (tmp - tms))
+        
         fdfse.to_csv('fdfpe %d' % i)
         fdfsn.to_csv('fdfpn %d' % i)
         break
