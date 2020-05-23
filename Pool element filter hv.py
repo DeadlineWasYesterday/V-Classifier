@@ -30,7 +30,7 @@ def count_in_range(df):
     iter1 = []
     
     for number in df.iloc[:, 1:].values.flatten():
-        iter1.append((nr1, er1 number, er2, nr2))   #attempted fix
+        iter1.append((nr1, er1, number, er2, nr2))   #attempted fix
       
     pool = Pool(processes = 15)
     x = pool.map(f, iter1)
@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
 
     #challenger
-    for i in range(5):
+    for i in range(50):
         p = df1.loc[df1['Gen'] == 'ssRNA(+)'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:]
         p2 = df1.loc[df1['Gen'] == 'ssRNA(+)i'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:] #changed the i
         n = df1.loc[df1['Gen'] == 'ssRNA(-)'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:]
@@ -132,19 +132,19 @@ if __name__ == '__main__':
             fdfse.loc[c,'htr'] = he
             fdfsn.loc[c,'htr'] = hn
 
-        print('%d challenger iterations remaining.' % (5-i))
+        print('%d challenger iterations remaining.' % (50-i))
         
         tms = time.time()
         
         print('SControl time: %d' % (tms - tmc))
         
-    fdfce.to_csv('fdfce 1.5', index_label = 'Ele')
-    fdfcn.to_csv('fdfcn 1.5', index_label = 'Ele')
-    fdfse.to_csv('fdfse 1.5', index_label = 'Ele')
-    fdfsn.to_csv('fdfsn 1.5', index_label = 'Ele')
+    fdfce.to_csv('fdfce 2.50', index_label = 'Ele')
+    fdfcn.to_csv('fdfcn 2.50', index_label = 'Ele')
+    fdfse.to_csv('fdfse 2.50', index_label = 'Ele')
+    fdfsn.to_csv('fdfsn 2.50', index_label = 'Ele')
         
     #p control
-    for i in range(5):
+    for i in range(50):
         p = df1.loc[df1['Gen'] == 'ssRNA(+)'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:]
         p2 = df1.loc[df1['Gen'] == 'ssRNA(+)'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:] #change the i
         n = df1.loc[df1['Gen'] == 'ssRNA(-)'].loc[df1['die'] == 'no'].sample(240).iloc[:,9:]
@@ -171,13 +171,13 @@ if __name__ == '__main__':
             fdfpe.loc[c,'htr'] = he
             fdfpn.loc[c,'htr'] = hn
 
-        print('%d control iterations remaining.' % (5-i))
+        print('%d control iterations remaining.' % (50-i))
         
         tmp = time.time()
         
         print('PControl time %d' % (tmp - tms))
         
-    fdfpe.to_csv('fdfpe 1.5', index_label = 'Ele')
-    fdfpn.to_csv('fdfpn 1.5', index_label = 'Ele')
+    fdfpe.to_csv('fdfpe 2.50', index_label = 'Ele')
+    fdfpn.to_csv('fdfpn 2.50', index_label = 'Ele')
         
 
