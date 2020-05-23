@@ -153,6 +153,15 @@ if __name__ == '__main__':
         wdf1 = pd.concat([p,p2,n,n2], axis = 0).reset_index(drop = True)  
         wdf2 = df2.loc[df2['die'] == 'no'].sample(960).iloc[:,5:].reset_index(drop = True) #watch out for this
         
+        tdf = pd.concat([wdf1.iloc[:,1:],wdf2], axis = 0).reset_index(drop = True)
+        tdf = tdf.sample(frac=1).reset_index(drop = True)
+        fam = wdf1['Fam']
+        
+        #print('Shape of tdf: (%dx%d)' % tdf.shape)
+        
+        wdf1 = pd.concat([fam,tdf[:960]], axis = 1)
+        wdf2 = tdf[960:].reset_index(drop= True)
+        
         #print('Shape of wdf1: (%dx%d)' % wdf1.shape)
         #print('Shape of wdf2: (%dx%d)' % wdf2.shape)
 
