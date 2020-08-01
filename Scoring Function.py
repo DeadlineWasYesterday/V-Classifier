@@ -115,7 +115,7 @@ if __name__ == '__main__':
         #working loop
 
         for element in winlist:
-            pool = Pool(processes=15)
+            pool = Pool(processes=4)
 
             with open('temp.txt', 'w') as file3:
                 file3.write(element)
@@ -134,4 +134,11 @@ if __name__ == '__main__':
         df.to_csv('%s scored' % file, index = False)
         
         print("Done with %s.:" %file)
+        
+#The numbers saved in the output csv file is not length scaled. 
+#Divide the score for a sequence by its length to obtain the final sequence score. 
+#Example code:
+#df['Length'] = [len(s) for s in df['1'].to_list()]
+#df = df.iloc[:,2:-1].div(df['Length'], axis = 0)
+
 
