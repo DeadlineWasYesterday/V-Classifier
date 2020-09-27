@@ -38,9 +38,21 @@ def calculate_element_score3(match_award, mismatch_penalty, gap_penalty, seq1, s
 
     perfect_matches = np.count_nonzero(score == perfect_score)
 
+    
+    #all published results are reported using these tolerance matches
     first_tolerance_match = np.count_nonzero(score == perfect_score - 1)
     second_tolerance_match = np.count_nonzero(score == perfect_score - 2)
     third_tolerance_match = np.count_nonzero(score == perfect_score - 3)
+    
+    
+    ##the following tolerance matches are easier to explain and 
+    ##implement the methods section of the published manuscript 
+    ##results will slightly vary if you use them
+    
+    #first_tolerance_match = np.count_nonzero(score == perfect_score - 2) + np.count_nonzero(score == perfect_score - 3)
+    #second_tolerance_match = np.count_nonzero(score == perfect_score - 4) + np.count_nonzero(score == perfect_score - 5)
+    #third_tolerance_match = np.count_nonzero(score == perfect_score - 6) + np.count_nonzero(score == perfect_score - 7)
+    
 
     final_score = perfect_matches + first_tolerance_match/(perfect_score * 2) + second_tolerance_match/(perfect_score * 4) + third_tolerance_match/(perfect_score * 8)
     
@@ -134,9 +146,10 @@ if __name__ == '__main__':
         df.to_csv('%s scored' % file, index = False)
         
         print("Done with %s.:" %file)
+
         
-#The numbers saved in the output csv file is not length scaled. 
-#Divide the score for a sequence by its length to obtain the final sequence score. 
+#The numbers saved in the output csv file are not length scaled. 
+#Divide the score for a sequence by its length to obtain the final feature score for that sequence. 
 #Example code:
 #df['Length'] = [len(s) for s in df['1'].to_list()]
 #df = df.iloc[:,2:-1].div(df['Length'], axis = 0)
